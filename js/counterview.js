@@ -19,7 +19,6 @@ function counterView() {
 		this.timings.scrollTop = this.timings.scrollHeight;
 		document.getElementById("countup").focus();
 		this.checkpoints.push(checkpoint);
-		this.save();
 		return false;
 	}
 	this.el = function(m) {
@@ -31,9 +30,20 @@ function counterView() {
 		while (this.timings.firstChild) {
 			this.timings.removeChild(this.timings.firstChild);
 		}
-		this.save();
+		this.checkpoints = [];
 	}
 	this.save = function() {
-		
+	  var text = "id,time\n";
+	  for (var i=0;i<this.checkpoints.length;i++) {
+		text += this.checkpoints[i].id + "," + this.checkpoints[i].time + "\n";
+	  }
+	  //http://stackoverflow.com/questions/3665115/create-a-file-in-memory-for-user-to-download-not-through-server
+	  var element = this.el('a');
+	  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+	  element.setAttribute('download', "counter.csv");
+	  element.style.display = 'none';
+	  document.body.appendChild(element);
+	  element.click();
+	  document.body.removeChild(element);
 	}
 }

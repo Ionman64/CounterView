@@ -12,6 +12,12 @@
 	background:#22ff22;
 	color:#fff;
 }
+.counterView-save {
+	height:2em;
+	width:4em;
+	float:left;
+	margin:0.5em;
+}
 .reset {
 	background:#ff2222;
 	color:#fff;
@@ -27,7 +33,7 @@
 	height:2.5em;
 	background:#222;
 	padding:0;
-	text-align:center;
+	text-align:right;
 	border-radius:5px 5px 0px 0px;
 }
 .counterView-header h1 {
