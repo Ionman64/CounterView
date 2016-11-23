@@ -1,0 +1,52 @@
+.counterView-btn {
+	width:50%;
+	height:100%;
+	float:left;
+	display:inline-block;
+	border:0;
+}
+.counterView-btn:focus {
+	border:2px solid #2222ff;
+}
+.count {
+	background:#22ff22;
+	color:#fff;
+}
+.reset {
+	background:#ff2222;
+	color:#fff;
+}
+.counterView {
+	width:20%;
+	margin-left:40%;
+	height:300px;
+	border-radius:5px 5px 0px 0px;
+}
+.counterView-header {
+	width:100%;
+	height:2.5em;
+	background:#222;
+	padding:0;
+	text-align:center;
+	border-radius:5px 5px 0px 0px;
+}
+.counterView-header h1 {
+	color:#ffae1a;
+	padding:0.5em;
+}
+.counterView-footer {
+	width:100%;
+	height:2.5em;
+	background:#222;
+	padding:0;
+}
+.counterView-body {
+	width:100%;
+	height:250px;
+}
+.counterView-timings {
+	width:100%;
+	height:100%;
+	margin:0;
+	font-size:2em;
+}
