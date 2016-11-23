@@ -35,7 +35,7 @@ function counterView() {
 	this.save = function() {
 	  var text = "id,time\n";
 	  for (var i=0;i<this.checkpoints.length;i++) {
-		text += this.checkpoints[i].id + "," + this.checkpoints[i].time + "\n";
+		text += this.checkpoints[i].id + "," + this.checkpoints[i].time + ((i == this.checkpoints.length-1) ? "" : "\n");
 	  }
 	  //http://stackoverflow.com/questions/3665115/create-a-file-in-memory-for-user-to-download-not-through-server
 	  var element = this.el('a');
