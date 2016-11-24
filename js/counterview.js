@@ -39,7 +39,7 @@ function counterView() {
 	  }
 	  //http://stackoverflow.com/questions/3665115/create-a-file-in-memory-for-user-to-download-not-through-server
 	  var element = this.el('a');
-	  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+	  element.setAttribute('href', 'data:text/csv;charset=utf-8,' + encodeURIComponent(text));
 	  element.setAttribute('download', "counter.csv");
 	  element.style.display = 'none';
 	  document.body.appendChild(element);
