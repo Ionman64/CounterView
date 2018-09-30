@@ -23,7 +23,7 @@ The easiest way to get get started is to clone the repository using git.
 
 Otherwise, download the zip from GitHub.com and extract the files
 
-#### Running CounterView
+## Running CounterView
 You can run CounterView by opening the index.html in any browser
 
 
