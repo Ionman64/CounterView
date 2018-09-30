@@ -26,6 +26,11 @@ Otherwise, download the zip from GitHub.com and extract the files
 ## Running CounterView
 You can run CounterView by opening index.html in any browser
 
+## Modification
+The project contains one JavaScript file and one CSS file, along with the index.html. No external libraries are required.
+
+This project is covered by the MIT license, so feel free to modify/share/use as you wish.
+
 
 
 
