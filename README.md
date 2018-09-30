@@ -5,14 +5,14 @@
 CounterView is a simple JavaScript stopwatch counter. Use cases could be a widget for sports pages
 or used as a teaching material.
 
-Times are shown as the time of day, in the format of; **HH-mm-ss**
+Times are shown as the time of day, in the format of; **HH-mm-ss** (example 11:59:59)
 
 **Features**
 * Infinite laps (or counts)
 * Reset Button
 * Scroll through lapped times
 * Shows the number of counted laps
-* Export of counted laps as .csv
+* Export of counted laps .csv
 
 ## Installation
 
