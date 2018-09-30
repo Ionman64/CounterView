@@ -18,6 +18,7 @@ Times are shown as the time of day, in the format of; **HH-mm-ss**
 
 ####Clone the repository
 The easiest way to get get started is to clone the repository using git.
+
 `git clone https://github.com/Ionman64/CounterView`
 
 Otherwise, download the zip from GitHub.com are extract the files
